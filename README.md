@@ -1,0 +1,1 @@
+# Allow2php
