@@ -37,4 +37,9 @@ this returns a payload with information that you pass back to the app to persist
 
 ## 2. Checking and Logging Usage
 
-Coming soon
+```sh
+curl -H "Content-Type: application/json" -X POST -d '{"userId": 1234, "pairToken":"6742b2f3-de46-4c86-8ac9-7b9e532cf999", "deviceToken": "jJ5GOIaJ028Ywt6K", "tz": "Australia/Brisbane", "childId": "682", "activities": [{ "id": 7, "log": true }] }' https://api.allow2.com:9443/serviceapi/check
+```
+
+
+}
