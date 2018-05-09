@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/Allow2/Allow2php](https://badges.gitter.im/Allow2/Allow2php.svg)](https://gitter.im/Allow2/Allow2php?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+pip: https://pypi.org/project/allow2/
+
 refer to https://github.com/Allow2/Allow2.github.io/wiki for more details.
 
 todo: Port https://github.com/Allow2/Allow2node to a PHP library
