@@ -1,0 +1,34 @@
+{
+    "name": "allow2/allow2php",
+    "description": "Allow2 PHP SDK for OpenSource Parental Freedom",
+    "keywords": [
+        "Parental Controls",
+	"controls",
+        "parental",
+        "freedom",
+        "time",
+        "limit",
+        "limits",
+        "quotas",
+        "gaming"
+    ],
+    "license": "SEE LICENSE IN LICENSE FILE",
+    "authors": [
+        {
+            "name": "Allow2CEO",
+            "email": "ceo@allow2.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Allow2\\": "src/"
+        }
+    }
+}
