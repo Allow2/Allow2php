@@ -1,34 +1,45 @@
 {
-    "name": "allow2/allow2php",
-    "description": "Allow2 PHP SDK for OpenSource Parental Freedom",
+    "name": "allow2/allow2",
+    "description": "Allow2 Parental Freedom SDK for PHP — Service API integration for websites and web applications",
     "keywords": [
-        "Parental Controls",
-	"controls",
+        "allow2",
+        "parental freedom",
         "parental",
         "freedom",
-        "time",
-        "limit",
-        "limits",
+        "time limits",
         "quotas",
-        "gaming"
+        "screen time",
+        "oauth2",
+        "service api"
     ],
     "license": "proprietary",
     "authors": [
         {
-            "name": "Allow2CEO",
-            "email": "ceo@allow2.com"
+            "name": "Allow2 Pty Ltd",
+            "email": "ceo@allow2.com",
+            "homepage": "https://www.allow2.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
-        "php": ">=5.4"
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-hash": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "5.2.*"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
             "Allow2\\": "src/"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Allow2\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
