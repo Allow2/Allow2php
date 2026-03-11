@@ -1,16 +1,16 @@
 # Allow2 PHP SDK v2
 
-[![Packagist version](https://img.shields.io/packagist/v/allow2/allow2.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2)
-[![PHP versions](https://img.shields.io/packagist/php-v/allow2/allow2.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2)
+[![Packagist version](https://img.shields.io/packagist/v/allow2/allow2-service.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2-service)
+[![PHP versions](https://img.shields.io/packagist/php-v/allow2/allow2-service.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2-service)
 [![CI](https://img.shields.io/github/actions/workflow/status/Allow2/allow2php/ci.yml?style=flat-square)](https://github.com/Allow2/allow2php/actions)
 
-Official Allow2 Parental Freedom SDK for PHP.
+Official Allow2 Parental Freedom **Service SDK** for PHP — for web services with user accounts (WordPress sites, SaaS, forums, etc.).
 
-This is the **server-side SDK** for integrating Allow2 into PHP websites and web applications. It handles OAuth2 pairing, permission checking, requests, voice codes, and feedback via the Allow2 Service API.
+This is a **Service SDK** — it runs on your web server, not on a child's device. Following industry standard practice (Stripe, Firebase, Auth0), Allow2 maintains separate Device and Service SDKs. It handles OAuth2 pairing, permission checking, all 3 request types, voice codes, and feedback via the Allow2 Service API.
 
 | | |
 |---|---|
-| **Package** | `allow2/allow2` |
+| **Package** | `allow2/allow2-service` |
 | **Targets** | PHP 8.1+ |
 | **Extensions** | `curl`, `json`, `hash` |
 | **Language** | PHP (OOP, PSR-4) |
@@ -25,7 +25,7 @@ This is the **server-side SDK** for integrating Allow2 into PHP websites and web
 ## Installation
 
 ```bash
-composer require allow2/allow2
+composer require allow2/allow2-service
 ```
 
 ## Quick Start
