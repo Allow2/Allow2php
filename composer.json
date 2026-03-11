@@ -1,6 +1,6 @@
 {
-    "name": "allow2/allow2",
-    "description": "Allow2 Parental Freedom SDK for PHP — Service API integration for websites and web applications",
+    "name": "allow2/allow2-service",
+    "description": "Allow2 Parental Freedom Service SDK for PHP — server-side integration for websites and web applications",
     "keywords": [
         "allow2",
         "parental freedom",
