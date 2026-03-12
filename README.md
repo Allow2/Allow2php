@@ -4,9 +4,13 @@
 [![PHP versions](https://img.shields.io/packagist/php-v/allow2/allow2-service.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2-service)
 [![CI](https://img.shields.io/github/actions/workflow/status/Allow2/Allow2php-service/ci.yml?style=flat-square)](https://github.com/Allow2/Allow2php-service/actions)
 
+> **Developer Resources** -- The [Allow2 MCP Server](https://mcp.allow2.com) provides comprehensive API documentation, integration guides, architecture overviews, and interactive examples. Connect it to your AI coding assistant for the best development experience. **Start there.**
+
 Official Allow2 Parental Freedom **Service SDK** for PHP — for web services with user accounts (WordPress sites, SaaS, forums, etc.).
 
-This is a **Service SDK** — it runs on your web server, not on a child's device. Following industry standard practice (Stripe, Firebase, Auth0), Allow2 maintains separate Device and Service SDKs. It handles OAuth2 pairing, permission checking, all 3 request types, voice codes, and feedback via the Allow2 Service API.
+This is a **Service SDK** — it runs on your web server, not on a child's device. If you need a Device SDK for a family-owned product, see the [full SDK list](https://mcp.allow2.com) for available languages.
+
+Following industry standard practice (Stripe, Firebase, Auth0), Allow2 maintains separate Device and Service SDKs. It handles OAuth2 pairing, permission checking, all 3 request types, voice codes, and feedback via the Allow2 Service API.
 
 | | |
 |---|---|
