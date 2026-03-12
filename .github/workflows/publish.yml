@@ -34,7 +34,7 @@ jobs:
             ## Installation
 
             ```bash
-            composer require allow2/allow2
+            composer require allow2/allow2-service
             ```
 
-            See [Packagist](https://packagist.org/packages/allow2/allow2) for details.
+            See [Packagist](https://packagist.org/packages/allow2/allow2-service) for details.

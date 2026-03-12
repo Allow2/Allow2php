@@ -1,8 +1,8 @@
-# Allow2 PHP SDK v2
+# Allow2 PHP Service SDK v2
 
 [![Packagist version](https://img.shields.io/packagist/v/allow2/allow2-service.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2-service)
 [![PHP versions](https://img.shields.io/packagist/php-v/allow2/allow2-service.svg?style=flat-square)](https://packagist.org/packages/allow2/allow2-service)
-[![CI](https://img.shields.io/github/actions/workflow/status/Allow2/allow2php/ci.yml?style=flat-square)](https://github.com/Allow2/allow2php/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/Allow2/Allow2php-service/ci.yml?style=flat-square)](https://github.com/Allow2/Allow2php-service/actions)
 
 Official Allow2 Parental Freedom **Service SDK** for PHP — for web services with user accounts (WordPress sites, SaaS, forums, etc.).
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# bump-version.sh — Standardised version bumping for Allow2 PHP SDK
+# bump-version.sh — Standardised version bumping for Allow2 PHP Service SDK
 # Usage: ./scripts/bump-version.sh [prerelease|patch|minor|major] [--preid alpha|beta|rc]
 #
 # PHP/Composer is tag-based — Packagist reads version from git tags.
